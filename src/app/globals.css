@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#pokedex {
+  background-color: red;
+  width: 800px;
+  height: 400px;
+}
+
+#pokedata {
+  width: 400px;
+  height: 100%;
+  float: left;
+}
+
+#inputs {
+  width: 400px;
+  height: 100%;
+  float: right;
+}
+
+#display {
+  width: 70%;
+  height: 40px;
+  background-color: cadetblue;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buttonContainer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-top: 20px;
+}
+
+.button {
+  height: 50px;
+}
+
+.search {
+  width:100%; 
+  margin: auto;
+}
+
